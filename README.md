@@ -2,6 +2,12 @@
 
 Notes for learning this Spark course (https://time.geekbang.org/column/intro/100090001?tab=catalog). Write and package the examples to run in Ezmeral Data Fabric (known as MapR in the past).
 
+The following is a cheat sheet of operators commonly used in RDD, quoted from [this course from Geek Time](https://time.geekbang.org/column/intro/100090001?tab=catalog):  
+📖[零基础入门 Spark02 | RDD与编程模型：延迟计算是怎么回事？](https://time.geekbang.org/column/article/417164)
+
+![operators commonly used in RDD
+][imageOperatorsCommonlyUsedInRdd]
+
 ## What did I do in this sample project❓ (What did I record in this note)
 
 - Use the knowledge learned about Spark development (how to use Spark's API to complete business) to write example applications.
@@ -158,3 +164,6 @@ Check the result from DF cluster's Resource Manager UI:
 [VSCodeMetals]: https://scalameta.org/metals/docs/editors/vscode/
 [ScalaAppliedPart1]: https://www.udemy.com/course/stairway-to-scala-applied-part-1/
 [sbt-by-example.html]: https://www.scala-sbt.org/1.x/docs/sbt-by-example.html#Exit+sbt+shell
+
+
+[imageOperatorsCommonlyUsedInRdd]: ./imgs/Common_RDD_Operators.jpg

@@ -5,23 +5,23 @@ import org.apache.spark.{SparkConf, SparkContext}
 
 object NeighboringWordCount extends App {
   try {
-    /* When you are on Spark local mode: ⬇️
-    val conf = new SparkConf().setAppName("NeighboringWordCount").setMaster("local[4]") */
+    // When you are on Spark local mode: ⬇️
+    val conf = new SparkConf().setAppName("NeighboringWordCount").setMaster("local[4]")
     // When you are on Spark cluster mode: ⬇️
-    val conf = new SparkConf().setAppName("NeighboringWordCount")
+    // val conf = new SparkConf().setAppName("NeighboringWordCount")
 
     val sparkContext = new SparkContext(conf)
 
-    /* When you are on Spark local mode: ⬇️
+    // When you are on Spark local mode: ⬇️
     val rootPath: String = "file://"
     val file: String =
-      s"${rootPath}/home/raymondyan/geektime/Getting_Started_with_Spark/chapter01/wikiOfSpark.txt" */
+      s"${rootPath}/home/shouneng/geektime/Getting_Started_with_Spark/chapter01/wikiOfSpark.txt"
 
     // When you are on Spark cluster mode: ⬇️
-    val rootPath: String = "/"
+    // val rootPath: String = "maprfs://"
     // Put this source file ⬇️ into Ezmeral Data Fabrics's file system using `hadoop fs` command or by POSIX client of the FS or by mounting the EDF NFS storage.
-    val file: String =
-      s"${rootPath}/user/mapr/wikiOfSpark.txt"
+    // val file: String =
+    //   s"${rootPath}/user/mapr/wikiOfSpark.txt"
 
     // 读取文件内容
     val lineRDD: RDD[String] = sparkContext.textFile(file)
