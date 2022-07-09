@@ -243,3 +243,11 @@ target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/outpu
 .bloop/sparkRDD/bloop-internal-classes/classes-Metals-jcMRFL17QDmRarpCbd8_Cg==-_MelVVBrTl214AWE1Vm-eQ==/META-INF/semanticdb/src/main/scala/shouneng/RddNeighboringWordCount.scala.semanticdb
 .bloop/sparkRDD/bloop-internal-classes/classes-Metals-jcMRFL17QDmRarpCbd8_Cg==-_MelVVBrTl214AWE1Vm-eQ==/META-INF/semanticdb/src/main/scala/shouneng/RddReduceByKeyWordCount.scala.semanticdb
 .bloop/sparkRDD/bloop-internal-classes/classes-Metals-jcMRFL17QDmRarpCbd8_Cg==-_MelVVBrTl214AWE1Vm-eQ==/META-INF/semanticdb/src/main/scala/shouneng/RddWordCountCollect.scala.semanticdb
+.bloop/sparkRDD/bloop-bsp-clients-classes/classes-Metals-L3ixmIZ2RQibRUMkqLDJUw==/META-INF/semanticdb/src/main/scala/shouneng/package.scala.semanticdb
+.bloop/sparkRDD/bloop-bsp-clients-classes/classes-Metals-L3ixmIZ2RQibRUMkqLDJUw==/META-INF/semanticdb/src/main/scala/shouneng/RddAggregateByKeyWordCount.scala.semanticdb
+.bloop/sparkRDD/bloop-bsp-clients-classes/classes-Metals-L3ixmIZ2RQibRUMkqLDJUw==/META-INF/semanticdb/src/main/scala/shouneng/RddGroupByKeyWordCount.scala.semanticdb
+.bloop/sparkRDD/bloop-bsp-clients-classes/classes-Metals-L3ixmIZ2RQibRUMkqLDJUw==/META-INF/semanticdb/src/main/scala/shouneng/RddNeighboringWordCount.scala.semanticdb
+.bloop/sparkRDD/bloop-bsp-clients-classes/classes-Metals-L3ixmIZ2RQibRUMkqLDJUw==/META-INF/semanticdb/src/main/scala/shouneng/RddReduceByKeyWordCount.scala.semanticdb
+.bloop/sparkRDD/bloop-bsp-clients-classes/classes-Metals-L3ixmIZ2RQibRUMkqLDJUw==/META-INF/semanticdb/src/main/scala/shouneng/RddWordCountCollect.scala.semanticdb
+.metals/.tmp/.metals/.tmp/Main8267263695878818313.scala
+.metals/.tmp/META-INF/semanticdb/.metals/.tmp/Main8267263695878818313.scala.semanticdb
