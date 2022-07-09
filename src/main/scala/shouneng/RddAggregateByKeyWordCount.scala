@@ -10,7 +10,7 @@ object RddAggregateByKeyWordCount extends App {
 
   val rootPath: String = "file://"
   val file: String =
-    s"${rootPath}/home/shouneng/geektime/Getting_Started_with_Spark/chapter01/wikiOfSpark.txt"
+    s"${rootPath}/home/raymondyan/geektime/Getting_Started_with_Spark/chapter01/wikiOfSpark.txt"
 
   val lineRDD: RDD[String] = sparkContext.textFile(file)
   val wordRDD: RDD[String] = lineRDD.flatMap(line => line.split(" "))
